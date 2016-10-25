@@ -1,0 +1,237 @@
+
+.form-control{
+    margin-bottom: .5em;
+
+}
+
+
+
+@media (min-width: 1024px) {
+    .container-full {
+        padding: 4em;
+    }
+}
+
+.row{
+    padding-top:1em;
+    min-width: 300px;
+}
+
+.user_opt .btn {
+    margin-top: 6px;
+    margin-left: -15px;
+    padding: 0px 0px 0px 0px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.user_opt .btn:hover { 
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.user_opt .btn:active{ 
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.cust_id {
+    -float: left;
+    -font-size: 20px;
+}
+
+.bill_sum {
+    color: #28B22C;
+    -float: left;
+    -margin-left: 30px;
+    -font-size: 20px;
+}
+
+.last_activity {
+    -float: left;
+    -margin-left: 30px;
+    -font-size: 20px;
+}
+
+.navtabs li a{
+    color: #FFFFFF;
+}
+
+.navtabs li a:hover{
+    background-color: #80bfff !important;
+}
+
+.navtabs li a:focus{
+    background-color: #80bfff !important;
+}
+
+.navtabs .alter_tab {
+    background-color: #f2f2f2;
+}
+
+.nav-pills>li.active>a {
+    background-color: none !important;
+}
+
+
+
+.hello
+{
+    font-size: 20px;
+
+
+}
+
+button
+{
+    width: auto;
+
+}
+
+    
+.hidden {
+    display: none !important;
+}
+[ng-cloak]
+{
+    display: none !important;
+}
+
+.btn-default:active:hover,
+.btn-default.active:hover,
+.open > .dropdown-toggle.btn-default:hover,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.open > .dropdown-toggle.btn-default:focus,
+.btn-default:active.focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default.focus {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.nl{
+    background-color:#052F6D;color:white;margin-bottom:1em;
+}
+.disabledTab {
+    pointer-events: none;
+    background-color: #e6e6e6 !important;
+}
+
+.error {
+    color: #ff0000;
+  }
+
+
+.dropdown-menu
+{
+    margin-left:-15px;
+
+}
+
+.alert
+{
+    border: 1px solid black;
+    height:100px;
+}
+
+.dynamic
+{
+    border: 1px solid black;
+    height:100px;
+    margin-top:7em;
+    align-content: center;
+}
+
+/*960gs additional css codes*/
+
+.full-width-div
+{
+    width:100%;
+    border:0;
+    margin:0;
+    padding:0;
+    min-width: 960px;
+    max-width:1600px;
+    margin-left:-60px;
+        
+}
+
+#boxes
+{
+    margin-top:-55px;
+   
+
+}
+/*forms*/
+.tab-content
+{
+ margin-left: 0px;   
+ margin-top:2em;
+}
+
+.tab-pane
+{
+     width:105%;
+    overflow:auto;
+    overflow-x:hidden;
+    height:450px;
+    margin-bottom: 1em;
+    padding-top: 3em;
+
+
+}
+
+/*.ticket-pane
+{
+    font-size:83%;
+    color:gray;
+    margin-right:0px; 
+    margin-left:3em; 
+    margin-top:0;
+    height:450px; 
+    overflow:auto; 
+    padding-right: 2.5em;
+}
+*/
+/*boxes sa account.php*/
+
+.boxes-account
+{
+    
+    margin-top: -55px;
+}
+
+#account
+{
+    margin-left: -1.5em;
+    margin-top: -2em;
+}
+
+/*modal window located inside summary.php*/
+
+.modal-dialog
+{
+    background-color: white;
+}
+
+/*cust_provisioning_form*/
+#provisioning
+{
+    margin-top:-2em;
+    margin-left: -1.5em;
+}
+
+        .round-div{
+            background: pink;
+            border-radius:50%;
+            color: black;
+            display:table;
+            height: 65px;
+            font-weight: bold;
+            font-size: 1.2em;
+            width: auto;
+            margin:0 auto;
+            margin-right: 4em;
+            margin-left: 1em;
+        }

@@ -1,0 +1,133 @@
+html, body { 
+	/*background-image: url("img/little_dipper.jpg");*/
+	background: -webkit-linear-gradient(#052F6D, #00004d);
+	background: -moz-linear-gradient(#052F6D, #00004d);
+	background: -o-linear-gradient(#052F6D, #00004d);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: center; 
+}
+
+.login_container {
+	background-color: transparent;
+	width: 500px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	zoom: 125%;
+}
+
+.login_title {
+	width: 100%;
+	height: auto;
+	color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	font-size: 40px;
+	padding-left: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.login_title img {
+	width: 50%;
+	
+}
+
+#lostpass_box .login_inner p {
+	color: #999999;
+}
+
+.login_inner {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -20px;
+}
+
+.login_inner h2 {
+	color: #5b6d6d;
+}
+
+.login_frgt_pass {
+	margin-top: 0px;
+	float: left;
+}
+
+.login_frgt_pass a {
+	text-decoration: none;
+}
+
+.remember_me {
+	width:3%; 
+	float: left;
+	margin-right: 5px;
+}
+
+.lbl_rmmbr_me {
+	float: left;
+	color: #ddd;
+}
+
+.login_sbmt, .go_back_login {
+	background: -webkit-linear-gradient(#ffb30f, #ffae00);
+	background: -moz-linear-gradient(#ffb30f, #ffae00);
+	background: -o-linear-gradient(#ffb30f, #ffae00);
+	color: #FFFFFF;
+	height: 40px;
+	width: 80px !important;
+	border-radius: 5px;
+	border-color: transparent;
+	margin-top: 10px;
+	float: right;
+}
+
+.login_sbmt:hover, .go_back_login:hover {
+	background: -webkit-linear-gradient(#ffb30f, #ffd780, #ffb30f);
+	background: -moz-linear-gradient(#ffb30f, #ffd780, #ffb30f);
+	background: -o-linear-gradient(#ffb30f, #ffd780, #ffb30f);
+}
+
+.login_sbmt:active, .go_back_login:active {
+	color: #FFB30F;
+}
+
+.go_back_login {
+	width: 100px !important;
+	float: left;
+}
+
+.reset_pass_btn {
+	width: 120px !important;
+}
+
+.col-1 {
+	float: left; 
+	width: 100%;
+}
+
+.col-1 input {
+	width: 100%;
+}
+
+.col-2 {
+	float: left; 
+	width: 50%;
+}
+
+.col-2 input {
+	width: 100%;
+}
+
+.row {
+	display: block;
+	margin: 2%;
+}
+.error {
+    font-style: italic;
+	color: #e60000;
+  }

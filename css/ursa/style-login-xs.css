@@ -1,0 +1,154 @@
+@media only screen and (min-width:299px) and (max-width:479px)
+
+{
+	
+	html, body
+	 { 
+	/*background-image: url("img/little_dipper.jpg");*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: center; 
+}
+
+.login_container {
+	background-color: transparent;
+	width: 300px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	
+	padding-bottom: 20px;
+}
+
+.login_title img {
+	margin-top: -20px;
+}
+
+#lostpass_box .login_inner p {
+	color: #999999;
+}
+
+.login_inner {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+.login_inner h2 {
+	color: #5b6d6d;
+}
+
+.login_frgt_pass {
+	margin-top: 10px;
+	float: left;
+}
+
+.login_frgt_pass a {
+	text-decoration: none;
+}
+
+.login_sbmt, .go_back_login {
+	color: #FFFFFF;
+	height: 40px;
+	width: 80px !important;
+	border-radius: 5px;
+	border-color: transparent;
+	margin-top: 10px;
+	float: right;
+}
+
+.login_sbmt:hover, .go_back_login:hover {
+	
+}
+
+.login_sbmt:active, .go_back_login:active {
+	color: #FFB30F;
+}
+
+.go_back_login {
+	width: 100px !important;
+	float: left;
+}
+
+.reset_pass_btn {
+	width: 120px !important;
+}
+
+.col-1 {
+	float: left; 
+	width: 100%;
+}
+
+.col-1 input {
+	width: 100%;
+}
+
+.col-2 {
+	float: left; 
+	width: 50%;
+}
+
+.col-2 input {
+	width: 100%;
+}
+
+.row {
+	display: block;
+	margin: 2%;
+}
+
+/*added/edited these august 8, 2016*/
+
+.login_title
+{
+	width: 100%;
+	height: 18px;
+	color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 90px;
+	margin-bottom: 90px;
+	font-size: 35px;
+	padding-left: 10px;
+	font-weight: bold;
+	text-align: center;
+	}
+
+}
+
+
+
+/*SM Devices*/
+@media only screen and (min-width:480px) and (max-width:767px)
+
+
+{
+
+
+
+}
+
+
+/*MEDIUM Devices*/
+@media only screen and (min-width:768px) and (max-width:959px)
+
+
+{
+
+
+
+}
+
+
+/*Large Devices*/
+@media only screen and (min-width:960px) and (max-width:1600px)
+
+
+{
+
+	
+
+}

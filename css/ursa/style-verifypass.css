@@ -1,0 +1,58 @@
+html, body 
+{ 
+	background: -webkit-linear-gradient(#052F6D, #00004d);
+	zoom:
+	-ms-zoom:120%;
+}
+
+
+
+.container
+{
+	width: 100%;
+	height: auto;
+	margin-top: 1%;
+	
+}
+
+
+#verify 
+{
+	text-align: center;
+	color: #5b6d6d;
+
+ }
+
+
+#errormessage
+{
+	text-align: center;
+	color: white;
+}
+.panel-body{
+	margin-top: 50px;
+	
+	padding-bottom: 40px;
+	padding-top: 20px;
+	/*NOT YET COMMITTED TODAY 8/25/2016 4:43pm*/
+	box-shadow: 5px 5px 10px #818181;
+    -webkit-box-shadow: 5px 5px 10px #818181;
+    -moz-box-shadow: 5px 5px 10px #818181;
+    color: 	black;
+    font-size: 100%;
+    border: 5px solid white;
+}
+
+input
+{
+	background-color: #FAE777;
+}
+
+#b1
+{
+	
+	background: -webkit-linear-gradient(#ffb30f, #ffd780, #ffb30f);
+	background: -moz-linear-gradient(#ffb30f, #ffd780, #ffb30f);
+	background: -o-linear-gradient(#ffb30f, #ffd780, #ffb30f);
+	
+}

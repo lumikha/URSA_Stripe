@@ -1,0 +1,10 @@
+@media all and (max-width: 1023px) and (min-width: 801px)
+{
+
+#search_result_view
+{
+    width: 250px;
+    margin-left: 370px;
+    align-content: center;
+}
+}

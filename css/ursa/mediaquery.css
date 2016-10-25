@@ -1,0 +1,1211 @@
+
+
+@media only all and (min-width: 280px) and (max-width: 479px) 
+
+{
+
+  body, .full-width-div
+  {
+    min-width: 280px;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: 0 auto;
+    width: 320px;
+  }
+ 
+  
+  .container_12,
+  .container_16 
+  {
+    width:300px;
+    max-width: 320px;
+    margin-left: auto;
+
+  }
+
+
+  .container_12 .grid_1,
+  .container_16 .grid_1,
+  .container_12 .grid_2,
+  .container_16 .grid_2,
+  .container_12 .grid_3,
+  .container_16 .grid_3,
+  .container_12 .grid_4,
+  .container_16 .grid_4,
+  .container_12 .grid_5,
+  .container_16 .grid_5,
+  .container_12 .grid_6,
+  .container_16 .grid_6,
+  .container_12 .grid_7,
+  .container_16 .grid_7,
+  .container_12 .grid_8,
+  .container_16 .grid_8,
+  .container_12 .grid_9,
+  .container_16 .grid_9,
+  .container_12 .grid_10,
+  .container_16 .grid_10,
+  .container_12 .grid_11,
+  .container_16 .grid_11,
+  .container_12 .grid_12,
+  .container_16 .grid_12,
+  .container_12 .grid_13,
+  .container_16 .grid_13,
+  .container_12 .grid_14,
+  .container_16 .grid_14,
+  .container_12 .grid_15,
+  .container_16 .grid_15,
+  .container_12 .grid_16,
+  .container_16 .grid_16 
+  {
+    margin: 0;
+    width: 280px;
+  }
+  .container_12 .push_1,
+  .container_16 .push_1,
+  .container_12 .push_2,
+  .container_16 .push_2,
+  .container_12 .push_3,
+  .container_16 .push_3,
+  .container_12 .push_4,
+  .container_16 .push_4,
+  .container_12 .push_5,
+  .container_16 .push_5,
+  .container_12 .push_6,
+  .container_16 .push_6,
+  .container_12 .push_7,
+  .container_16 .push_7,
+  .container_12 .push_8,
+  .container_16 .push_8,
+  .container_12 .push_9,
+  .container_16 .push_9,
+  .container_12 .push_10,
+  .container_16 .push_10,
+  .container_12 .push_11,
+  .container_16 .push_11,
+  .container_12 .push_12,
+  .container_16 .push_12,
+  .container_12 .push_13,
+  .container_16 .push_13,
+  .container_12 .push_14,
+  .container_16 .push_14,
+  .container_12 .push_15,
+  .container_16 .push_15,
+  .container_12 .pull_1,
+  .container_16 .pull_1,
+  .container_12 .pull_2,
+  .container_16 .pull_2,
+  .container_12 .pull_3,
+  .container_16 .pull_3,
+  .container_12 .pull_4,
+  .container_16 .pull_4,
+  .container_12 .pull_5,
+  .container_16 .pull_5,
+  .container_12 .pull_6,
+  .container_16 .pull_6,
+  .container_12 .pull_7,
+  .container_16 .pull_7,
+  .container_12 .pull_8,
+  .container_16 .pull_8,
+  .container_12 .pull_9,
+  .container_16 .pull_9,
+  .container_12 .pull_10,
+  .container_16 .pull_10,
+  .container_12 .pull_11,
+  .container_16 .pull_11,
+  .container_12 .pull_12,
+  .container_16 .pull_12,
+  .container_12 .pull_13,
+  .container_16 .pull_13,
+  .container_12 .pull_14,
+  .container_16 .pull_14,
+  .container_12 .pull_15,
+  .container_16 .pull_15 
+  {
+    left: 0;
+    width: 280px;
+   
+  }
+   .search
+  {
+    margin-left: -1.5em;
+  }
+
+
+  .boxsummary
+  {
+    margin-top:35em;
+    margin-left:1em;
+    right: auto;
+  }
+
+   .boxcustomer
+  {
+    margin-top:40em;
+    margin-left:auto;
+    right: auto;
+  }
+
+  .tab-pane
+  {
+    padding-top: 3em;
+    padding-right: 1em;
+    width: 300px;
+    margin-left: 2em;
+  }
+
+  .results
+  {
+    margin-left: 20em;
+  }
+
+  .ticket-pane
+  {
+   max-width: 280px;
+
+  }
+
+  .tab-content
+  {
+    margin-left: 0.5em;
+  }
+
+
+.round-div
+  {
+   max-width: 40px;
+   max-height: 40px;
+   
+   margin-left: -2em;
+  }
+
+
+/**tickets summary and round-div **/
+  /**summary buttons**/
+  
+  #boxesSum
+  {
+    margin-left: -0.25em !important;
+  }
+
+  .ticketbutton,
+  .twiliobutton
+  {
+    
+    width: 125px !important;
+  }
+
+  .ticketsummary
+  {
+    text-align: center;
+    margin-left: 4em !important;
+  }
+
+  .round-div
+  {
+    position: normal;
+    margin-left: -0.5em;
+
+    
+  }
+
+  .ticketlist
+  {
+    margin-top: -3.5em !important;
+    margin-left: 1.25em !important;
+    font-size: 10px;
+  }
+
+  /**modal dialog toggle button**/
+  #glyph_resize
+  {
+    margin-top:-10em;
+    cursor: pointer;
+  }
+
+
+  /*START support.php*/
+
+.boxsummary2
+{
+  
+  position: static;
+  margin-left: 0px auto !important;
+  margin-right: 0 auto !important;
+  margin-top: 30em;
+  
+}
+
+.left_container
+{
+  min-width: 280px;
+  height: 300px !important;
+}
+
+.middle_container
+{
+  max-width: 280px !important;
+  overflow-x:auto;
+  overflow-y: scroll; 
+}
+
+
+.middle_container_2 
+{
+  max-width: 280px !important;
+}
+.mail_body
+{
+  max-width: 280px;
+}
+
+.msubj
+{
+ font-weight: bold;
+ font-size: 15px !important;
+ width: 50% !important;
+ word-wrap: break-word; 
+ display: inline-block; 
+}
+
+.mail_body .mfrom 
+{
+            width: 60%;
+            padding-left: 8px;
+            font-size: 10px !important;
+            font-weight: bold;
+        }
+
+
+#boxesSup
+{
+  margin-top: 30em;
+  margin-left: -1em;
+}
+
+
+/** END support.php**/
+
+#previewAtt
+{
+ margin-left: auto;
+ left:3.5em;
+ right: 1.5em;
+ background-color: rgba(0, 0, 0, 0.6);
+
+}
+ 
+ #previewAtt img, #attfn
+  {
+  
+  max-width: 280px;
+  max-height: 250px;
+  display: block; 
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-right: auto;
+  width: 280px;
+  word-wrap: break-word;
+ 
+  }
+
+
+  /**accounts form**/
+
+  .accform
+  
+  {
+    margin-top: 30em !important;
+    margin-left: 0em !important;
+  }
+
+ }
+
+
+/** Mobile Landscape Width to Tablet Portrait Width **/
+@media only screen and (min-width: 480px) and (max-width: 767px) 
+
+{
+
+  body, .full-width-div
+  {
+    min-width: 420px;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container_12,
+  .container_16 
+  {
+    width: 420px;
+    max-width: 500px;
+  }
+
+  .container_12 .grid_1,
+  .container_16 .grid_1,
+  .container_12 .grid_2,
+  .container_16 .grid_2,
+  .container_12 .grid_3,
+  .container_16 .grid_3,
+  .container_12 .grid_4,
+  .container_16 .grid_4,
+  .container_12 .grid_5,
+  .container_16 .grid_5,
+  .container_12 .grid_6,
+  .container_16 .grid_6,
+  .container_12 .grid_7,
+  .container_16 .grid_7,
+  .container_12 .grid_8,
+  .container_16 .grid_8,
+  .container_12 .grid_9,
+  .container_16 .grid_9,
+  .container_12 .grid_10,
+  .container_16 .grid_10,
+  .container_12 .grid_11,
+  .container_16 .grid_11,
+  .container_12 .grid_12,
+  .container_16 .grid_12,
+  .container_12 .grid_13,
+  .container_16 .grid_13,
+  .container_12 .grid_14,
+  .container_16 .grid_14,
+  .container_12 .grid_15,
+  .container_16 .grid_15,
+  .container_12 .grid_16,
+  .container_16 .grid_16 
+  {
+    margin: 0;
+    width: 420px;
+  }
+  .container_12 .push_1,
+  .container_16 .push_1,
+  .container_12 .push_2,
+  .container_16 .push_2,
+  .container_12 .push_3,
+  .container_16 .push_3,
+  .container_12 .push_4,
+  .container_16 .push_4,
+  .container_12 .push_5,
+  .container_16 .push_5,
+  .container_12 .push_6,
+  .container_16 .push_6,
+  .container_12 .push_7,
+  .container_16 .push_7,
+  .container_12 .push_8,
+  .container_16 .push_8,
+  .container_12 .push_9,
+  .container_16 .push_9,
+  .container_12 .push_10,
+  .container_16 .push_10,
+  .container_12 .push_11,
+  .container_16 .push_11,
+  .container_12 .push_12,
+  .container_16 .push_12,
+  .container_12 .push_13,
+  .container_16 .push_13,
+  .container_12 .push_14,
+  .container_16 .push_14,
+  .container_12 .push_15,
+  .container_16 .push_15,
+  .container_12 .pull_1,
+  .container_16 .pull_1,
+  .container_12 .pull_2,
+  .container_16 .pull_2,
+  .container_12 .pull_3,
+  .container_16 .pull_3,
+  .container_12 .pull_4,
+  .container_16 .pull_4,
+  .container_12 .pull_5,
+  .container_16 .pull_5,
+  .container_12 .pull_6,
+  .container_16 .pull_6,
+  .container_12 .pull_7,
+  .container_16 .pull_7,
+  .container_12 .pull_8,
+  .container_16 .pull_8,
+  .container_12 .pull_9,
+  .container_16 .pull_9,
+  .container_12 .pull_10,
+  .container_16 .pull_10,
+  .container_12 .pull_11,
+  .container_16 .pull_11,
+  .container_12 .pull_12,
+  .container_16 .pull_12,
+  .container_12 .pull_13,
+  .container_16 .pull_13,
+  .container_12 .pull_14,
+  .container_16 .pull_14,
+  .container_12 .pull_15,
+  .container_16 .pull_15 
+  {
+    left: 0;
+    width: 420px;
+   
+  }
+   
+   .search
+  {
+     margin-left: -1.5em;
+  }
+
+  .boxsummary
+  {
+    margin-top:35em;
+    margin-left:1em;
+
+  }
+
+   .boxcustomer
+  {
+    margin-top:40em;
+    margin-left:0em;
+  }
+  .tab-content
+  {
+    margin-left: 0.5em;
+  }
+
+
+  /**tickets summary and round-div **/
+  /**summary buttons**/
+
+  #boxesSum
+  {
+    margin-left: -0.75em !important;
+  }
+
+  .ticketbutton,
+  .twiliobutton
+  {
+    width: 200px !important;
+  }
+
+  .ticketsummary
+  {
+    text-align: center;
+    margin-left: 4.75em !important;
+  }
+
+
+
+    .round-div
+  {
+   max-width: 40px;
+   max-height: 40px;
+   position: normal;
+   margin-left: 0.25em !important;
+  }
+
+
+  .ticketlist
+  {
+    margin-top: -3em !important;
+    margin-left: 2em !important;
+  }
+
+
+
+  /**modal dialog toggle button**/
+  #glyph_resize
+  {
+    margin-top:-10em;
+    cursor: pointer;
+  }
+
+/**START support.php**/
+
+.boxsummary2
+{
+  
+  position: static;
+  margin-left: 0px auto !important;
+  margin-right: 0 auto !important;
+  margin-top: 30em;
+  
+}
+
+.left_container
+{
+  min-width: 420px;
+}
+
+.mail_body
+{
+  max-width: 420px;
+}
+
+.msubj
+{
+ font-weight: bold;
+ font-size: 17px !important;
+ width: 60% !important;
+ word-wrap: break-word; 
+ display: inline-block; 
+}
+
+.mail_body .mfrom 
+{
+            width: 60%;
+            padding-left: 8px;
+            font-size: 12px !important;
+            font-weight: bold;
+        }
+
+
+
+
+.middle_container_2, .prevConvo
+{
+  max-width: 420px !important;
+}
+
+#boxesSup
+{
+  margin-top: 30em;
+  margin-left: 0em;
+}
+
+/**END support.php**/
+
+#previewAtt
+{
+ left: 2em;
+ background-color: rgba(0, 0, 0, 0.6);
+
+}
+ #previewAtt img, #attfn
+  {
+  
+  max-width: 480px;
+  max-height: 300px;
+  display: block;  
+  margin-top: 40px;
+  margin-left: 120px;
+  margin-right: auto;
+  width: 480px;
+  word-wrap: break-word;
+ 
+  
+  }
+
+
+  /**accounts form**/
+
+  .accform
+  
+  {
+    margin-top: 30em !important;
+  }
+
+}
+ 
+
+
+
+/**Small devices**/
+@media only screen and (min-width: 768px) and (max-width: 959px) 
+{
+
+  body, .full-width-div
+  {
+    min-width: 720px;
+    margin-right: 0;
+    margin-left: 0em;
+    
+  }
+
+  .container_12,
+  .container_16 
+  {
+    width: 720px;
+  }
+
+  .container_12 .grid_1,
+  .container_16 .grid_1,
+  .container_12 .grid_2,
+  .container_16 .grid_2,
+  .container_12 .grid_3,
+  .container_16 .grid_3,
+  .container_12 .grid_4,
+  .container_16 .grid_4,
+  .container_12 .grid_5,
+  .container_16 .grid_5,
+  .container_12 .grid_6,
+  .container_16 .grid_6,
+  .container_12 .grid_7,
+  .container_16 .grid_7,
+  .container_12 .grid_8,
+  .container_16 .grid_8,
+  .container_12 .grid_9,
+  .container_16 .grid_9,
+  .container_12 .grid_10,
+  .container_16 .grid_10,
+  .container_12 .grid_11,
+  .container_16 .grid_11,
+  .container_12 .grid_12,
+  .container_16 .grid_12,
+  .container_12 .grid_13,
+  .container_16 .grid_13,
+  .container_12 .grid_14,
+  .container_16 .grid_14,
+  .container_12 .grid_15,
+  .container_16 .grid_15,
+  .container_12 .grid_16,
+  .container_16 .grid_16 
+  {
+    margin: 0;
+    width: 720px;
+  }
+  .container_12 .push_1,
+  .container_16 .push_1,
+  .container_12 .push_2,
+  .container_16 .push_2,
+  .container_12 .push_3,
+  .container_16 .push_3,
+  .container_12 .push_4,
+  .container_16 .push_4,
+  .container_12 .push_5,
+  .container_16 .push_5,
+  .container_12 .push_6,
+  .container_16 .push_6,
+  .container_12 .push_7,
+  .container_16 .push_7,
+  .container_12 .push_8,
+  .container_16 .push_8,
+  .container_12 .push_9,
+  .container_16 .push_9,
+  .container_12 .push_10,
+  .container_16 .push_10,
+  .container_12 .push_11,
+  .container_16 .push_11,
+  .container_12 .push_12,
+  .container_16 .push_12,
+  .container_12 .push_13,
+  .container_16 .push_13,
+  .container_12 .push_14,
+  .container_16 .push_14,
+  .container_12 .push_15,
+  .container_16 .push_15,
+  .container_12 .pull_1,
+  .container_16 .pull_1,
+  .container_12 .pull_2,
+  .container_16 .pull_2,
+  .container_12 .pull_3,
+  .container_16 .pull_3,
+  .container_12 .pull_4,
+  .container_16 .pull_4,
+  .container_12 .pull_5,
+  .container_16 .pull_5,
+  .container_12 .pull_6,
+  .container_16 .pull_6,
+  .container_12 .pull_7,
+  .container_16 .pull_7,
+  .container_12 .pull_8,
+  .container_16 .pull_8,
+  .container_12 .pull_9,
+  .container_16 .pull_9,
+  .container_12 .pull_10,
+  .container_16 .pull_10,
+  .container_12 .pull_11,
+  .container_16 .pull_11,
+  .container_12 .pull_12,
+  .container_16 .pull_12,
+  .container_12 .pull_13,
+  .container_16 .pull_13,
+  .container_12 .pull_14,
+  .container_16 .pull_14,
+  .container_12 .pull_15,
+  .container_16 .pull_15 
+  {
+    left: 0;
+    width: 720px;
+   
+  }
+   .search
+  {
+    margin-left: -1.5em;
+  }
+
+  .boxsummary
+  {
+    margin-top:35em;
+    margin-left:auto;
+    right: 0;
+    padding-left: 1em;
+  }
+
+   .boxcustomer
+  {
+    margin-top:40em;
+    margin-left:auto;
+  }
+
+  .tab-pane
+  {
+    padding-top: 3em;
+    padding-right: 2em;
+    width: 740px;
+  }
+  
+  .tab-content
+  {
+    margin-left: 0.5em;
+  }
+
+.round-div
+  {
+   max-width: 40px;
+   max-height: 40px;
+   position: normal;
+   margin-left: -1.25em !important;
+   
+  }
+
+  /**summary buttons**/
+  .ticketbutton,
+  .twiliobutton
+  {
+    width: 350px !important;
+  }
+  
+  /**tickets summary and round-div **/
+  .ticketsummary
+  {
+    margin-left: 12em !important;
+    text-align: center !important;
+
+   
+  }
+  .ticketlist
+  {
+    margin-top: -3.25em !important;
+  }
+
+  /**modal dialog toggle button**/
+  #glyph_resize
+  {
+    margin-top:-10em;
+    cursor: pointer;
+  }
+
+
+    /**START support.php**/
+
+.boxsummary2
+{
+  
+  position: static;
+  margin-left: 0px auto !important;
+  margin-right: 0 auto !important;
+  margin-top: 30em;
+  
+}
+
+.left_container
+{
+  min-width: 720px;
+}
+
+/**.middle_container
+{
+  min-width: 720px !important;
+  overflow-x:auto;
+  overflow-y: scroll; 
+}**/
+
+.middle_container_2, .prevConvo
+{
+  max-width: 720px !important;
+}
+
+.msubj
+{
+ font-weight: bold;
+ font-size: 20px !important;
+ width: 70% !important;
+ word-wrap: break-word; 
+ display: inline-block; 
+}
+
+.mail_body .mfrom 
+{
+ width: 60%;
+ padding-left: 8px;
+ font-size: 15px !important;
+ font-weight: bold;
+}
+
+#boxesSup
+{
+  margin-top: 30em;
+  margin-left: 1.5em;
+}
+
+
+/**for boxessup nav buttons**/
+
+.unassignedbutton
+{
+width: 110px !important;
+height: 50px !important;
+font-size: 12px;
+word-wrap: inherit;
+}
+
+
+.minebutton,
+.assignedbutton,
+.closedbutton,
+.spambutton
+
+{
+width: 110px !important;
+height: 50px !important;
+font-size: 12px;
+
+}
+
+
+
+
+
+
+
+/** END support.php**/
+
+ #previewAtt
+{
+ left: 2em;
+ background-color: rgba(0, 0, 0, 0.6);
+
+}
+ 
+ #previewAtt img, #attfn
+  {
+  
+  max-width: 720px;
+  max-height: 500px;
+  display: block; 
+  margin-top: 40px;
+  margin-left: 0px;
+  margin-right: auto;
+  width: 720px;
+  word-wrap: break-word;
+ 
+  
+  }
+
+
+
+  /**accounts form**/
+
+  .accform
+  
+  {
+    margin-top: 30em !important;
+  }
+
+}
+
+ 
+
+ 
+
+
+/*MEDIUM devices up to Large Devices*/
+@media only screen and (min-width: 960px) and (max-width: 1599px) 
+
+{
+
+  body, .full-width-div 
+  {
+    min-width: 960px;
+    margin-left: -10%;
+    margin-right: auto;
+  }
+
+
+
+  .container_12
+   
+  {
+    width: 960px;
+  }
+
+  .boxcustomer
+  {
+    margin-top: 0em;
+  }
+
+.boxsummary
+{
+   position: relative;
+   left: 8em !important;
+   right: auto;
+}
+
+
+#sumArea
+{
+  margin-left: -3.50em;
+}
+
+.round-div
+  {
+   max-width: 45px;
+   max-height: 45px;
+   margin-right: 4.5em;
+   
+  }
+
+  .ticketsummary
+  {
+    margin-left: 1em !important;
+  }
+
+
+
+/*START support.php*/
+
+.boxsummary2
+{
+  
+  position: relative;
+  top: 1.5em;
+
+  
+ 
+}
+
+
+
+.mail_body
+{
+  max-width: 720px;
+}
+
+/*START support2.php*/
+
+
+ 
+  #boxesSum, 
+  #boxesSup
+  
+  {
+  
+    margin-top: -5.25em;
+    margin-left: -3.5em;
+
+
+  }
+
+
+
+  
+
+  .boxsupport
+  {
+    margin-left: 7.25em !important;
+  }
+
+
+ .ticketsummary2
+  {
+    
+     height: 500px;
+     width: 92% !important;
+     margin-left: -1.5em !important;
+     top: -3em;
+  }
+
+
+
+
+/**modal attachments**/
+
+#previewAtt
+{
+ left: 4em;
+ 
+ background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+ #previewAtt img, #attfn
+  
+  {
+  
+  max-width: 960px;
+  max-height: 800px;
+  display: block; 
+  margin-top: 40px;
+  margin-left: -20px;
+  margin-right: auto;
+  width: 960px;
+  word-wrap: break-word !important;
+ 
+  
+  }
+
+  /**accounts form**/
+
+  .accform
+  
+  {
+    margin-left: -3em!important;
+  }
+}
+  
+
+
+@media only screen and (min-width: 1600px) and (max-width: 2040px) 
+
+{
+
+  body, .full-width-div 
+  {
+    min-width: 1600px;
+    margin-left: 10%;
+    margin-right: auto;
+  }
+
+
+  .container_12
+   
+  {
+    width: 1600px;
+  }
+
+.boxcustomer
+  {
+    margin-top: 0em;
+    margin-left: 0em;
+  }
+
+.boxsummary
+{
+  position: relative;
+   margin-left:-2.5em !important;
+    right: auto;
+
+}
+
+#sumArea
+{
+  margin-left: 9.5em !important;
+  right: auto;
+  padding-left: 0em;
+
+}
+
+.round-div
+  {
+   max-width: 60px;
+   max-height: 60px;
+   
+  }
+
+
+
+.ticketsummary
+{
+  margin-left: 10em !important;
+}
+
+
+
+.tab-content 
+  {
+    width: 700px;
+    margin-left: -40em;
+  
+
+
+  }
+
+  .ticket-pane
+  {
+    position: absolute;
+    margin-left: 57em;
+    margin-top: 4em;
+  }
+
+
+  
+  #boxesSum
+
+  {
+  
+    margin-top: -5.25em !important;
+    margin-left: -2em !important;
+
+  }
+
+
+  /*START support2.php*/
+
+
+  #boxesSup
+  {
+  
+    margin-top: -5.25em !important;
+    margin-left: 0em !important;
+
+  }
+
+  .ticketsummary2
+  {
+     /*background-color: rgba(0, 0, 0, 0.2);*/
+     height: 500px;
+     width: 55% !important;
+     margin-left: 1em !important;
+     top: -2em;
+  }
+
+  .boxsupport
+  {
+    margin-left: 6.25em !important;
+  
+  }
+
+  .accform
+  {
+    margin-left: 15em!important;
+    width: 55% !important;
+  }
+
+
+
+
+/* END support2.php*/
+
+
+
+#previewAtt
+
+{
+ left: 0em;
+ background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+ #previewAtt img, #attfn
+  {
+  
+  max-width: 960px;
+  max-height: 900px;
+  display: block; 
+  margin-top: 40px;
+  margin-left: 0px;
+  margin-right: auto;
+  width: 720px;
+  word-wrap: break-word;
+ 
+  
+  }
+}
+
+
+ 
+
+  

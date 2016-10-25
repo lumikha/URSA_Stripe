@@ -1,0 +1,30 @@
+.error_msg {
+	font-style: italic;
+	color: #e60000;
+}
+
+.error_all {
+	background-color: #ff9999;
+	width: 100%;
+	height: 40px;
+	padding: 8px;
+	border: solid 2px;
+	border-color: #ff4d4d;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: -20px;
+}
+
+.error_all p {
+	color: #990000;
+}
+
+.hido {
+    visibility: hidden;
+}
+
+.hidob{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s 1s, opacity 0.5s linear;
+}

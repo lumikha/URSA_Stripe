@@ -1,0 +1,23 @@
+@media all and (max-width: 1224px) and (min-width: 1199px)
+{
+
+#search_result_view
+{
+    width: 250px;
+    
+}
+
+img
+{
+	height: 100px;
+	margin-right: 5px;
+
+}
+
+.hello
+{
+	 font-size:18px;
+	 margin-left: 5px;
+    
+
+}

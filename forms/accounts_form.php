@@ -6,7 +6,7 @@
             <img src="img/loader1.gif">
         </div>
         <thead>
-            <tr>
+            <tr class="hidden">
                 <td></td>
             </tr>
         </thead>

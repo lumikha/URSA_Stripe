@@ -5,9 +5,9 @@
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
 <script type="text/javascript" src="js/jquery.validate.js"></script>
-<script src="js/dataTables/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="js/dataTables/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script src="js/dataTables/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="js/dataTables/dataTables.bootstrap.min.js"></script>
 <script type="text/javascript" src="js/angular.min.js"></script>
 <script type="text/javascript" src="js/jquery.cookie.js"></script>
 <script type="text/javascript" src="js/jquery.tagsinput.js"></script>
@@ -268,7 +268,7 @@ $( '.box' ).each(function ( i, box ) {
 
 	var myapp = angular.module("myapp",[]);
 		myapp.controller("newController", function($scope,$http){
-			$http.get("dynamoDB/search.php").success(function(response){
+			$http.get("lib/dynamoDB/search.php").success(function(response){
 				$scope.users = response;
 			});
 			$scope.num = 5;

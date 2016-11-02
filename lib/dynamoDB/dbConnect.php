@@ -1,6 +1,6 @@
 <?php
 require '../DynamoDB/dbCredentials.php';
-require 'vendor/autoload.php';
+require 'lib/vendor/autoload.php';
 use Aws\S3\S3Client;
 use Aws\DynamoDb\Exception\DynamoDbException;
 use Aws\DynamoDb\Marshaler;
@@ -28,25 +28,25 @@ $params = [
 ];
 
 	try {
-    while (true) {
-        $result_db_users = $dynamodb->scan($params);
-
-        
-        foreach ($result_db_users['Items'] as $i) {
-            $movie = $marshaler->unmarshalItem($i);
-        }
-
-        if (isset($result_db_users['LastEvaluatedKey'])) {
-            $params['ExclusiveStartKey'] = $result_db_users['LastEvaluatedKey'];
+        while (true) {
             $result_db_users = $dynamodb->scan($params);
-        } else {
-            break;
+
+            
+            foreach ($result_db_users['Items'] as $i) {
+                $movie = $marshaler->unmarshalItem($i);
+            }
+
+            if (isset($result_db_users['LastEvaluatedKey'])) {
+                $params['ExclusiveStartKey'] = $result_db_users['LastEvaluatedKey'];
+                $result_db_users = $dynamodb->scan($params);
+            } else {
+                break;
+            }
         }
+    } catch (DynamoDbException $e) {
+        echo "Unable to scan USERS:\n";
+        echo $e->getMessage() . "\n";
     }
-} catch (DynamoDbException $e) {
-    echo "Unable to scan USERS:\n";
-    echo $e->getMessage() . "\n";
-}
 
 $params2 = [
     'TableName' => 'ursa-customers',
@@ -64,54 +64,52 @@ $params2 = [
         customer_alternate_phone_no,customer_mobile_no
         '
 ];
-try {
-    while (true) {
-        $result_db_customers = $dynamodb->scan($params2);
 
-        
-        foreach ($result_db_customers['Items'] as $i) {
-            $movie = $marshaler->unmarshalItem($i);
-        }
-
-        if (isset($result_db_customers['LastEvaluatedKey'])) {
-            $params2['ExclusiveStartKey'] = $result_db_customers['LastEvaluatedKey'];
+    try {
+        while (true) {
             $result_db_customers = $dynamodb->scan($params2);
-        } else {
-            break;
-        }
-    }
-} catch (DynamoDbException $e) {
-    echo "Unable to scan CUSTOMERS:\n";
-    echo $e->getMessage() . "\n";
-}
 
-//$days_ago = date('Y/m/d', mktime(0, 0, 0, date("m") , date("d") - 2, date("Y")))." 00:00:00";
+            
+            foreach ($result_db_customers['Items'] as $i) {
+                $movie = $marshaler->unmarshalItem($i);
+            }
+
+            if (isset($result_db_customers['LastEvaluatedKey'])) {
+                $params2['ExclusiveStartKey'] = $result_db_customers['LastEvaluatedKey'];
+                $result_db_customers = $dynamodb->scan($params2);
+            } else {
+                break;
+            }
+        }
+    } catch (DynamoDbException $e) {
+        echo "Unable to scan CUSTOMERS:\n";
+        echo $e->getMessage() . "\n";
+    }
 
 $params3 = [
     'TableName' => 'ursa-logs',
     'ProjectionExpression' => 'user_id,customer_id,event,#data,#date',
     'ExpressionAttributeNames'=> [ '#data' => 'data','#date' => 'date' ]
-    //'FilterExpression' => 'date >= '.$days_ago.''
 ];
 
     try {
-    while (true) {
-        $result_db_logs = $dynamodb->scan($params3);
-
-        
-        foreach ($result_db_logs['Items'] as $i) {
-            $movie = $marshaler->unmarshalItem($i);
-        }
-
-        if (isset($result_db_logs['LastEvaluatedKey'])) {
-            $params3['ExclusiveStartKey'] = $result_db_logs['LastEvaluatedKey'];
+        while (true) {
             $result_db_logs = $dynamodb->scan($params3);
-        } else {
-            break;
+
+            
+            foreach ($result_db_logs['Items'] as $i) {
+                $movie = $marshaler->unmarshalItem($i);
+            }
+
+            if (isset($result_db_logs['LastEvaluatedKey'])) {
+                $params3['ExclusiveStartKey'] = $result_db_logs['LastEvaluatedKey'];
+                $result_db_logs = $dynamodb->scan($params3);
+            } else {
+                break;
+            }
         }
+    } catch (DynamoDbException $e) {
+        echo "Unable to scan USERS:\n";
+        echo $e->getMessage() . "\n";
     }
-} catch (DynamoDbException $e) {
-    echo "Unable to scan USERS:\n";
-    echo $e->getMessage() . "\n";
-}
 ?>

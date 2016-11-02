@@ -12,8 +12,8 @@
     $sid = $sid;
     $token = $token;
     $client = new Client($sid, $token);
-
-    $phone_num = "+639262386281";
+    $strip_phone = str_replace("-", "", $phone);
+    $phone_num = "+"."$strip_phone";
     $from = "+15005550006";
     //+12565988804
 
@@ -31,28 +31,30 @@
 
 
     if(@$_POST['call']){
+        try{
             $call = $client->calls->create(
                 "$phone_num", "$from",
                 array("url" => "http://demo.twilio.com/docs/voice.xml")
             );
-            if($call->sid){
                 ?>
                     <script type="text/javascript">
-                        alert("Connected.");
+                        alert("Connected.<?=$phone_num?>");
                     </script>
                 <?php
-            }else{
+            }catch(Exception $e){
                 ?>
                     <script type="text/javascript">
-                        alert("Failed.");
+                        alert("Failed to connect. <?=$phone_num?>");
                     </script>
                 <?php
             }
+            
     }
 
     //==========TWILIO END===============
 ?>
     <style>
+
         .form-errors {
             color: #e60000;
             font-size: 30px;
@@ -80,7 +82,7 @@
     <style type="text/css">
         body
         {
-            margin-left: 10%;
+            margin-left: 10% !important;
         }
     </style>
 
@@ -145,10 +147,15 @@
         
       <div class="grid_12 push_2 omega " style="margin-top:0em;">
     <div id="boxes" class="text-center" style="display:none;">
+       
         <div class="cust_id grid_2" style="padding: 1em;margin-right:3em;margin-left:0em;margin-bottom:1em;border:solid black 2px;"><strong><?php echo $billing_sum; ?></strong></div>
+        
         <div class="grid_2" style="padding: 1em;margin-right:2em;margin-bottom:1em;border:solid black 2px;"><strong><a href="#" onclick="return callTwilio();"><?php echo "Twilio"; ?></a></strong></div>
-        <div class="grid_2" style="padding: 1em;margin-right:3em;margin-bottom:1em;border:solid black 2px;height:52px;overflow:hidden;"><div id="email_box" style="width: 100%;height: 300%;overflow:auto;"><strong><?php echo $email; ?></strong></div></div>
-        <div class="grid_2" style="padding: 1em;margin-right:3em;margin-bottom:1em;border:solid #A60800 2px;color:#A60800"><strong>Ticket</strong></div>
+       
+        <div class="grid_2" style="padding: 1em;margin-right:3em;margin-bottom:1em;border:solid black 2px;height:49px;overflow:hidden;"><div id="email_box" style="width: 100%;height: 300%;overflow:auto;"><strong><?php echo $email; ?></strong></div></div>
+     
+       <div class="grid_2" style="padding: 1em;margin-right:3em;margin-bottom:1em;border:solid #A60800 2px;color:#A60800"><strong>Ticket</strong></div>
+        
         <div class="grid_2" style="padding: 1em;margin-right:1em;margin-bottom:1em;border:solid #340570 2px;color:#340570"><strong>Disposition</strong></div>
         
     </div>

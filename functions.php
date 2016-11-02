@@ -1,10 +1,6 @@
 <?php 
-	require 'dynamoDB/dbConnect.php';
-	require 'Chargify-PHP-Client/lib/Chargify.php';
-	//$result_db_users = getAll user list 
-	//$result_db_customers = getAll customer list
-	//$client_users = new connection to user database
-	//$client_customers = new connection to customer database
+	require 'lib/dynamoDB/dbConnect.php';
+	require 'lib/chargify/Chargify.php';
 
 	session_start();
 
@@ -168,17 +164,6 @@
 				    echo "Unable to update item:\n";
 				    echo $e->getMessage() . "\n";
 				}
-//????????????????????????????????????????????
-				/*	            
-				$whitelist = array('127.0.0.1', "::1");
-				if(in_array($_SERVER['REMOTE_ADDR'], $whitelist)){
-				    ?>
-					<script>
-						window.location = "verify_reset_pass?e=<?php echo $email_hex; ?>&vcode=<?php echo $vcode; ?>&go=0";
-					</script>
-					<?php
-				} else {
-					*/
 					$to = $r_email;
 			        $subject = "URSA Reset Password";
 
@@ -314,14 +299,14 @@
 			$lname = $_SESSION['user_now_lname'];
 		}
 	}
-	function GUID()
-	  {
-	      	date_default_timezone_set("Asia/Manila");
-			$t = microtime(true);
-			$micro = sprintf("%06d",($t - floor($t)) * 1000000);
-			$d = new DateTime( date('Y-m-d H:i:s.'.$micro, $t) );
 
-			return $d->format("YmdHisu");
-	  }
+	function GUID()
+	{
+	    date_default_timezone_set("Asia/Manila");
+		$t = microtime(true);
+		$micro = sprintf("%06d",($t - floor($t)) * 1000000);
+		$d = new DateTime( date('Y-m-d H:i:s.'.$micro, $t) );
+		return $d->format("YmdHisu");
+	}
 ?>
 	

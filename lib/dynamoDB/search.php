@@ -1,5 +1,5 @@
 <?php
-require '../../DynamoDB/dbCredentials.php';
+require '../../../DynamoDB/dbCredentials.php';
 require '../vendor/autoload.php';
 use Aws\S3\S3Client;
 use Aws\DynamoDb\Exception\DynamoDbException;
@@ -27,6 +27,7 @@ $params2 = [
         business_email,business_name,keywords
         '
 ];
+
 try {
     while (true) {
         $result_db_customers = $dynamodb->scan($params2);
@@ -47,5 +48,6 @@ try {
     echo "Unable to scan CUSTOMERS:\n";
     echo $e->getMessage() . "\n";
 }
+
 print_r(json_encode($result_db_customers['Items']));
 ?>

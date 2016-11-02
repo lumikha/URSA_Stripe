@@ -492,3 +492,19 @@ function checkedboxes() {
 function getTicketData(id) {
 	$('#viewTicket').modal('show'); 
 }
+
+
+
+/**show and hide buttons for previous conversation section **/
+
+$(document).ready(function(){
+    $("#show").click(function(){
+        $(".prev_convo").show(1000);
+    });
+
+     $("#hide").click(function(){
+        $(".prev_convo").hide(1000);
+    });
+});
+
+

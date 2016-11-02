@@ -82,7 +82,7 @@
 </div>
 
 <div class="modal fade" id="updateTicket" tabindex="-1" role="dialog">
-	<div id="modal_cont" class="modal-dialog modal-md">
+	<div id="modal_cont" class="modal-dialog modal-lg">
 		<div class="modal-content">                            
 			<div class="modal-body">
 				<form method="POST">
@@ -111,10 +111,45 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-12">
+						<div class="col-md-9">
 							<label>Message</label>
 							<textarea class="form-control" id="commit_msg" name="message" style="height: 300px;"></textarea>
 						</div>
+
+						<div class="col-md-3">
+
+							 <label>Previous Conversation 
+                                  
+                                        &nbsp
+                                <span title="hide content" id="hide" title="Hide Content"><i class="fa fa-angle-up" style="font-size: 18px;"></i></span>
+                                        &nbsp
+                                <span title="show content" id="show" title="Show Content"><i class="fa fa-angle-down" style="font-size: 18px;"></i></span>
+
+                             </label>
+                             
+                             <section class="form-control" id="prev_conv" name="prev_conv" style="height: 300px; background-color: rgba(0, 0, 0, 0.1);">
+                                       
+                                    <div class="prev_convo">
+
+                                        <button type="button" class="btn btn-default btn-sm prevconvbutton" style="width: 100%; text-align: left !important;" >
+                                           <span class="glyphicon glyphicon-envelope"></span> &nbsp Few More Basics
+                                       </button>
+
+                                        <button type="button" class="btn btn-default btn-sm prevconvbutton" style="width: 100%; text-align: left !important;" >
+                                            <span class="glyphicon glyphicon-envelope"></span> &nbsp Learning the basics
+                                        </button>
+
+
+                                    </div>
+
+                              </section>
+
+
+
+
+						</div>
+
+
 					</div>
 					<div class="row">
    						<center>

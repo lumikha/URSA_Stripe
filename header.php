@@ -36,6 +36,9 @@
        
     <!--media queries-->
     <link rel="stylesheet" type="text/css" href="css/ursa/mediaquery.css">
+
+    <!--for font awesome (external link); angle down for previous conversation show and hide-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 <body>
     <div class="full-width-div">
